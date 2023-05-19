@@ -13,7 +13,9 @@ a {
 }
 	
 .delete-form button {
-  color: red;
+  margin-top: 20vmin;
+  color: rgb(176, 0, 0);
+  background-color: rgb(194, 194, 194);
 }
 	
 li {
