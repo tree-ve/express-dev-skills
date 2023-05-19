@@ -1,4 +1,4 @@
-<%- include('./partials/header') %>
+<%- include('../partials/header') %>
 
 <form action="/skills/<%= skill.id %>?_method=PUT" method="POST">
     <input type="text" name="skill" value="<%= skill.skill %>"><br>
@@ -9,4 +9,4 @@
     <button type="submit">Update</button>
   </form>
 
-<%- include('./partials/footer') %>
+<%- include('../partials/footer') %>
