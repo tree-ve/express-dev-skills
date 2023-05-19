@@ -3,8 +3,8 @@
 <form action="/skills/<%= skill.id %>?_method=PUT" method="POST">
     <input type="text" name="skill" value="<%= skill.skill %>"><br>
     <label>
-      <input type="checkbox" name="done" <%= skill.good ? 'checked' : '' %>>
-      Completed
+      <input type="checkbox" name="good" <%= skill.good ? 'checked' : '' %>>
+      Good?
     </label><br>
     <button type="submit">Update</button>
   </form>
